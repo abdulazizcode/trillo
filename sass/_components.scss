@@ -326,8 +326,8 @@
         margin-right: .7rem;
 
         background-color: var(--color-primary);
-        -webkit-mask-image:url(../img//chevron-thin-right.svg);
-        -webkit-mask-size:cover;
+        mask-image:url(../img//chevron-thin-right.svg);
+        mask-size:cover;
 
 
     }
@@ -344,7 +344,7 @@
     &__count{
         margin-right: auto;
     }
-    
+
     &__photo{
         box-sizing:content-box;
         height:4rem;
