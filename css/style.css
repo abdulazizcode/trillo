@@ -284,6 +284,12 @@ body {
     padding: 1.25rem 2rem;
   }
 }
+@media only screen and (max-width: 450px) {
+  .overview__heading {
+    font-size: 1.3rem;
+    padding: 1rem 1.3rem;
+  }
+}
 .overview__stars {
   margin-right: auto;
   display: flex;
@@ -292,6 +298,12 @@ body {
   width: 1.75rem;
   height: 1.75rem;
   fill: var(--color-primary);
+}
+@media only screen and (max-width: 450px) {
+  .overview__icon-star, .overview__icon-location {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
 }
 .overview__location {
   font-size: 1.2rem;
