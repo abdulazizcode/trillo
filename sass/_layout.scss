@@ -4,6 +4,12 @@
     background-color: var(--color-grey-light-2);
     box-shadow: var(--shadow-dark);
     min-height: 50rem;
+
+    @media only screen and (max-width:1200px){
+        margin:0;
+        max-width: 100%;
+        width:100%;
+    }
 }
 
 .header{
@@ -14,10 +20,20 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
+
+    @media only screen and (max-width:500px){
+        flex-wrap:wrap;
+        align-content: space-around;
+        height:11rem;
+    }
 }
 
 .content{
     display:flex;
+
+    @media only screen and (max-width:900px){
+        flex-direction: column;
+    }
 }
 
 .sidebar{
@@ -40,6 +56,14 @@
     padding:4.5rem;
     background-color: var(--color-grey-light-1);
     border-bottom:1px solid var(--color-grey-light-2);
+
+    @media only screen and (max-width:900px){
+        padding: 3rem;
+    }
+
+    @media only screen and (max-width:600px){
+        flex-direction: column;
+    }
 }
 
 .description{
@@ -48,6 +72,16 @@
     background-color: #fff;
     box-shadow: 0 2rem 5rem rgba(0,0,0,.06);
     padding:3rem;
+
+    @media only screen and (max-width:900px){
+        padding:2rem;
+        margin-right: 3rem;
+    }
+
+    @media only screen and (max-width:600px){
+        margin-right:0;
+        margin-bottom:3rem;
+    }
 
 }
 
